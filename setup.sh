@@ -3,5 +3,5 @@ LV_BRANCH='release-1.2/neovim-0.8' bash <(curl -s https://raw.githubusercontent.
 # echo "alias lvim='/home/gitpod/.local/bin/lvim'"
 
 curl https://raw.githubusercontent.com/hudsonsmith/gitpod_template/main/config.lua > ~/.config/lvim/config.lua
-lvim -c ":PackerInstall|:qa!"
+lvim -c ":e ~/.config/lvim/config.lua|:PackerInstall|:qa!"
 lvim

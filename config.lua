@@ -53,3 +53,4 @@ lvim.plugins = {
     },
 }
 lvim.colorscheme = "doom-one"
+vim.api.nvim_command(':hi NonText guifg=bg')
